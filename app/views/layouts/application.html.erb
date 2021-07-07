@@ -31,9 +31,9 @@
     <title><%= t("bigbluebutton") %></title>
     <meta property="og:title" content="<%= t("bigbluebutton", locale: :en) %>" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="<%= t("landing.about", href: "Greenlight", locale: :en) %>" />
-    <meta property="og:url" content="<%= request.base_url %>" />
-    <meta property="og:image" content="<%= logo_image %>" />
+    <meta property="og:description" content="<%= t("landing.about", href: "Allianz VDO", locale: :en) %>" />
+    <meta property="og:url" content="<link href="https://software.allianzcloud.com" />
+    <meta property="og:image" content="<img src="/assets/images/bbb_logo.png" />
 
     <meta name="viewport" content= "width=device-width, user-scalable=no">
     <%= csrf_meta_tags %>
@@ -67,7 +67,7 @@
           <div class="flash alert d-inline">
             <i class="fas fa-exclamation-triangle"></i>
             <p class="d-inline"><%= t("test_install",
-              href: link_to(t("docs").downcase, "http://docs.bigbluebutton.org/install/greenlight-v2.html#2-install-greenlight", target: "_blank", rel: "noopener")
+              href: link_to(t("docs").downcase, "https://software.allianzcloud.com", target: "_blank", rel: "noopener")
             ).html_safe %>
           </div>
         </div>

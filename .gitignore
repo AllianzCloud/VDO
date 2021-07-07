@@ -46,3 +46,5 @@ config/terms.md
 coverage*
 
 /atom-sftp-sync.json
+config/credentials.yml.enc
+config/master.key

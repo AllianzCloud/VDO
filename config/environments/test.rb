@@ -47,7 +47,7 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
 
   # Default credentials (test-install.blindsidenetworks.com/bigbluebutton).
-  config.bigbluebutton_endpoint_default = 'http://bbb.example.com/bigbluebutton/api/'
+  config.bigbluebutton_endpoint_default = 'http://vdo.allianzcloud.com/bigbluebutton/api/'
   config.bigbluebutton_secret_default = 'secret'
 
   # Use standalone BigBlueButton server.
